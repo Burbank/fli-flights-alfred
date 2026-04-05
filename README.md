@@ -50,11 +50,11 @@ flights JFK LHR 05-15 --sort DURATION --time 6-20
 flights JFK LHR 05-15 --airlines BA AA
 ```
 
-| Action | Shortcut |
-|--------|----------|
-| Copy flight details | `Enter` |
-| Open Google Flights | `Cmd+Enter` |
-| Add to Calendar | `Shift+Cmd+Enter` |
+| Action | Keyboard | Trackpad / Mouse |
+|--------|----------|------------------|
+| Copy flight details | `Enter` | Click |
+| Open Google Flights | `Cmd+Enter` | `Cmd+Click` |
+| Add to Calendar | `Shift+Cmd+Enter` | `Shift+Cmd+Click` |
 
 ### `nsflt` — Nonstop flights today
 
@@ -79,10 +79,10 @@ flydates JFK LHR --round --duration 7
 flydates JFK LHR --friday --saturday
 ```
 
-| Action | Shortcut |
-|--------|----------|
-| Open Google Flights | `Enter` |
-| Copy details | `Cmd+Enter` |
+| Action | Keyboard | Trackpad / Mouse |
+|--------|----------|------------------|
+| Open Google Flights | `Enter` | Click |
+| Copy details | `Cmd+Enter` | `Cmd+Click` |
 
 ### `flyhelp` — Interactive guide
 
