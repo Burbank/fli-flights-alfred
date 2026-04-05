@@ -118,7 +118,7 @@ Type `flyhelp` to browse all commands and options. Type to filter.
 
 ## Calendar Integration
 
-<img src="screenshot-calendar.png" width="367" alt="calendar event"> <img src="screenshot-calendar-multisector.png" width="710" alt="multi-sector calendar event">
+<img src="screenshot-calendar-multisector.png" width="710" alt="multi-sector calendar event">
 
 When you press `Shift+Cmd+Enter` on a flight result:
 
