@@ -4,6 +4,8 @@ Search Google Flights directly from Alfred using the [`fli`](https://github.com/
 
 ![screenshot](screenshot.png)
 
+![flight results](screenshot-flights.png)
+
 ## Features
 
 - **Flight search** with full filtering (class, stops, airlines, time window)
