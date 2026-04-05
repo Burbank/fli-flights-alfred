@@ -118,6 +118,8 @@ Type `flyhelp` to browse all commands and options. Type to filter.
 
 ## Calendar Integration
 
+![calendar event](screenshot-calendar.png)
+
 When you press `Shift+Cmd+Enter` on a flight result:
 
 - A `.ics` file is generated with **timezone-aware** start/end times (using `airportsdata` for 7,800+ airport timezone mappings)
