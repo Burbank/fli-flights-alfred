@@ -2,7 +2,7 @@
 
 Search Google Flights directly from Alfred using the [`fli`](https://github.com/punitarani/fli) CLI. Find flights, compare prices, discover cheapest dates, and add flights to your calendar — all without leaving your keyboard.
 
-![icon](icon.png)
+![screenshot](screenshot.png)
 
 ## Features
 
@@ -130,6 +130,10 @@ No need to type the year — just use `MM-DD`:
 - `05-15` → `2026-05-15` (current year)
 - If the date has already passed this year, it rolls to next year
 - Full `YYYY-MM-DD` still works
+
+## Currency
+
+The currency you see is determined by Google based on your IP address / geographic location. There is no setting to change it — this is a Google Flights limitation, not a fli or workflow one.
 
 ## Files
 
