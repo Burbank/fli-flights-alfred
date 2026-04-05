@@ -118,11 +118,13 @@ Type `flyhelp` to browse all commands and options. Type to filter.
 
 ## Calendar Integration
 
-<img src="screenshot-calendar.png" width="367" alt="calendar event">
+<img src="screenshot-calendar.png" width="367" alt="calendar event"> <img src="screenshot-calendar-multisector.png" width="710" alt="multi-sector calendar event">
 
 When you press `Shift+Cmd+Enter` on a flight result:
 
 - A `.ics` file is generated with **timezone-aware** start/end times (using `airportsdata` for 7,800+ airport timezone mappings)
+- **Multi-sector journeys** create a separate calendar event for each leg (e.g. CDG → AUH → HKG adds two events)
+- **Timezones are resolved per airport** — each leg gets the correct local departure and arrival timezone (e.g. Europe/Paris, Asia/Dubai, Asia/Hong_Kong)
 - The event title is clean: `✈ KLM 1366 · BUD → AMS`
 - The notes include price, airport details, all other flight options from the search, and a credit line
 - The event URL links directly to Google Flights
