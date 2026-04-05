@@ -144,5 +144,10 @@ No need to type the year — just use `MM-DD`:
 
 ## Credits
 
-- Flight data: [fli](https://github.com/punitarani/fli) by Punit Arani
+This workflow is powered by [**fli**](https://github.com/punitarani/fli) — a Google Flights MCP server and Python library by [Punit Arani](https://github.com/punitarani). `fli` provides direct API access to Google Flights data without scraping, making it fast and reliable. Licensed under the [MIT License](https://github.com/punitarani/fli/blob/main/LICENSE.txt).
+
 - Timezone data: [airportsdata](https://pypi.org/project/airportsdata/)
+
+## License
+
+This Alfred workflow is provided as-is. The underlying [fli](https://github.com/punitarani/fli) library is MIT-licensed.
