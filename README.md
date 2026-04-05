@@ -1,4 +1,4 @@
-# Fli Flights — Alfred Workflow
+# Fli Flights — Alfred Workflow — with calendar import!
 
 Search Google Flights directly from Alfred using the [`fli`](https://github.com/punitarani/fli) CLI. Find flights, compare prices, discover cheapest dates, and add flights to your calendar — all without leaving your keyboard.
 
