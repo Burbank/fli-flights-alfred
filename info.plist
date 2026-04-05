@@ -1,0 +1,587 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleid</key>
+	<string>com.fli.flights.alfred</string>
+	<key>category</key>
+	<string>Productivity</string>
+	<key>connections</key>
+	<dict>
+		<key>11111111-1111-4111-8111-111111111111</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>33333333-3333-4333-8333-333333333333</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>88888888-8888-4888-8888-888888888888</string>
+				<key>modifiers</key>
+				<integer>1179648</integer>
+				<key>modifiersubtext</key>
+				<string>Add to Calendar</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>44444444-4444-4444-8444-444444444444</string>
+				<key>modifiers</key>
+				<integer>1048576</integer>
+				<key>modifiersubtext</key>
+				<string>Open Google Flights</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>22222222-2222-4222-8222-222222222222</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>33333333-3333-4333-8333-333333333333</string>
+				<key>modifiers</key>
+				<integer>1048576</integer>
+				<key>modifiersubtext</key>
+				<string>Copy to clipboard</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>44444444-4444-4444-8444-444444444444</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>55555555-5555-4555-8555-555555555555</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>33333333-3333-4333-8333-333333333333</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>66666666-6666-4666-8666-666666666666</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>33333333-3333-4333-8333-333333333333</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>88888888-8888-4888-8888-888888888888</string>
+				<key>modifiers</key>
+				<integer>1179648</integer>
+				<key>modifiersubtext</key>
+				<string>Add to Calendar</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>44444444-4444-4444-8444-444444444444</string>
+				<key>modifiers</key>
+				<integer>1048576</integer>
+				<key>modifiersubtext</key>
+				<string>Open Google Flights</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>77777777-7777-4777-8777-777777777777</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>33333333-3333-4333-8333-333333333333</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>88888888-8888-4888-8888-888888888888</string>
+				<key>modifiers</key>
+				<integer>1179648</integer>
+				<key>modifiersubtext</key>
+				<string>Add to Calendar</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>44444444-4444-4444-8444-444444444444</string>
+				<key>modifiers</key>
+				<integer>1048576</integer>
+				<key>modifiersubtext</key>
+				<string>Open Google Flights</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+	</dict>
+	<key>createdby</key>
+	<string></string>
+	<key>description</key>
+	<string>Search Google Flights using the fli CLI. Use "flights" for specific dates and "flydates" for cheapest dates.</string>
+	<key>disabled</key>
+	<false/>
+	<key>name</key>
+	<string>Fli Flights</string>
+	<key>objects</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>autopaste</key>
+				<false/>
+				<key>clipboardtext</key>
+				<string>{query}</string>
+				<key>ignoredynamicplaceholders</key>
+				<false/>
+				<key>transient</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.clipboard</string>
+			<key>uid</key>
+			<string>33333333-3333-4333-8333-333333333333</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<false/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<true/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>keyword</key>
+				<string>flights</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<false/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>2</integer>
+				<key>runningsubtext</key>
+				<string>Searching Google Flights…</string>
+				<key>script</key>
+				<string>export PATH="$HOME/.local/bin:$PATH"
+/usr/bin/python3 flights_filter.py "{query}"</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>subtext</key>
+				<string>e.g. JFK LHR 05-15 [--class BUSINESS] [--stops NON_STOP]  •  flyhelp for guide</string>
+				<key>title</key>
+				<string>Search Flights</string>
+				<key>type</key>
+				<integer>0</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>11111111-1111-4111-8111-111111111111</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>0</integer>
+				<key>script</key>
+				<string>export PATH="$HOME/.local/bin:$PATH"
+/usr/bin/python3 add_to_calendar.py "{query}"</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>88888888-8888-4888-8888-888888888888</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>browser</key>
+				<string></string>
+				<key>skipqueryencode</key>
+				<false/>
+				<key>skipvarencode</key>
+				<false/>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string>{query}</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>44444444-4444-4444-8444-444444444444</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<false/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<true/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>keyword</key>
+				<string>flydates</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<false/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>2</integer>
+				<key>runningsubtext</key>
+				<string>Finding cheapest dates…</string>
+				<key>script</key>
+				<string>export PATH="$HOME/.local/bin:$PATH"
+/usr/bin/python3 dates_filter.py "{query}"</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>subtext</key>
+				<string>e.g. JFK LHR [--from 06-01 --to 07-01] [--round] [--friday]  •  flyhelp for guide</string>
+				<key>title</key>
+				<string>Find Cheapest Dates</string>
+				<key>type</key>
+				<integer>0</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>22222222-2222-4222-8222-222222222222</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<false/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<false/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>keyword</key>
+				<string>flyhelp</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<false/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string></string>
+				<key>script</key>
+				<string>/usr/bin/python3 help_filter.py "{query}"</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>subtext</key>
+				<string>Browse all commands, options, and examples — type to filter</string>
+				<key>title</key>
+				<string>Fli Flights Guide</string>
+				<key>type</key>
+				<integer>0</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>55555555-5555-4555-8555-555555555555</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<false/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<true/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>keyword</key>
+				<string>nsflt</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<false/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>2</integer>
+				<key>runningsubtext</key>
+				<string>Searching nonstop flights for today…</string>
+				<key>script</key>
+				<string>export PATH="$HOME/.local/bin:$PATH"
+/usr/bin/python3 nonstop_filter.py 0 "{query}"</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>subtext</key>
+				<string>e.g. nsflt BCN AMS  •  Nonstop flights today</string>
+				<key>title</key>
+				<string>Nonstop Flights Today</string>
+				<key>type</key>
+				<integer>0</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>66666666-6666-4666-8666-666666666666</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<false/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<true/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>keyword</key>
+				<string>nstom</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<false/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>2</integer>
+				<key>runningsubtext</key>
+				<string>Searching nonstop flights for tomorrow…</string>
+				<key>script</key>
+				<string>export PATH="$HOME/.local/bin:$PATH"
+/usr/bin/python3 nonstop_filter.py 1 "{query}"</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>subtext</key>
+				<string>e.g. nstom BCN AMS  •  Nonstop flights tomorrow</string>
+				<key>title</key>
+				<string>Nonstop Flights Tomorrow</string>
+				<key>type</key>
+				<integer>0</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>77777777-7777-4777-8777-777777777777</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+	</array>
+	<key>readme</key>
+	<string>Fli Flights — Alfred Workflow
+
+Type "flyhelp" in Alfred to browse the full interactive guide.
+
+KEYWORDS
+────────
+  flights ORIGIN DEST MM-DD [options]
+      Search flights on a specific date.
+      ↵ copies details  |  ⌘↵ opens Google Flights  |  ⇧⌘↵ add to Calendar
+
+  flydates ORIGIN DEST [options]
+      Find the cheapest travel dates.
+      ↵ opens Google Flights  |  ⌘↵ copies details
+
+  nsflt ORIGIN DEST [options]
+      Nonstop flights today (date + stops auto-set).
+      ↵ copies details  |  ⌘↵ opens Google Flights  |  ⇧⌘↵ add to Calendar
+
+  nstom ORIGIN DEST [options]
+      Nonstop flights tomorrow (date + stops auto-set).
+      ↵ copies details  |  ⌘↵ opens Google Flights  |  ⇧⌘↵ add to Calendar
+
+  flyhelp [filter]
+      Browse all commands, options, and examples.
+
+DATES — no year needed
+──────────────────────
+  Just type MM-DD (e.g. 05-15). The current year is
+  assumed; if that date already passed it rolls to next year.
+  Full YYYY-MM-DD still works too.
+
+OPTIONS (flights)
+─────────────────
+  --class    ECONOMY | PREMIUM_ECONOMY | BUSINESS | FIRST
+  --stops    ANY | NON_STOP | ONE_STOP
+  --sort     CHEAPEST | DURATION | DEPARTURE_TIME | ARRIVAL_TIME
+  --return   MM-DD   (round-trip)
+  --time     6-20    (departure window, 24h)
+  --airlines BA AA   (IATA codes)
+
+OPTIONS (flydates)
+──────────────────
+  --from MM-DD --to MM-DD   (date range)
+  --round                   (round-trip)
+  --duration 5              (trip length in days)
+  --friday --saturday       (day filters, combine any)
+  --class / --stops         (same as flights)
+
+Powered by https://github.com/punitarani/fli</string>
+	<key>uidata</key>
+	<dict>
+		<key>11111111-1111-4111-8111-111111111111</key>
+		<dict>
+			<key>xpos</key>
+			<real>50</real>
+			<key>ypos</key>
+			<real>50</real>
+		</dict>
+		<key>22222222-2222-4222-8222-222222222222</key>
+		<dict>
+			<key>xpos</key>
+			<real>50</real>
+			<key>ypos</key>
+			<real>220</real>
+		</dict>
+		<key>33333333-3333-4333-8333-333333333333</key>
+		<dict>
+			<key>xpos</key>
+			<real>385</real>
+			<key>ypos</key>
+			<real>20</real>
+		</dict>
+		<key>44444444-4444-4444-8444-444444444444</key>
+		<dict>
+			<key>xpos</key>
+			<real>495</real>
+			<key>ypos</key>
+			<real>220</real>
+		</dict>
+		<key>55555555-5555-4555-8555-555555555555</key>
+		<dict>
+			<key>xpos</key>
+			<real>50</real>
+			<key>ypos</key>
+			<real>390</real>
+		</dict>
+		<key>66666666-6666-4666-8666-666666666666</key>
+		<dict>
+			<key>xpos</key>
+			<real>50</real>
+			<key>ypos</key>
+			<real>560</real>
+		</dict>
+		<key>77777777-7777-4777-8777-777777777777</key>
+		<dict>
+			<key>xpos</key>
+			<real>50</real>
+			<key>ypos</key>
+			<real>730</real>
+		</dict>
+		<key>88888888-8888-4888-8888-888888888888</key>
+		<dict>
+			<key>xpos</key>
+			<real>890</real>
+			<key>ypos</key>
+			<real>165</real>
+		</dict>
+	</dict>
+	<key>userconfigurationconfig</key>
+	<array/>
+	<key>version</key>
+	<string>1.0.0</string>
+	<key>webaddress</key>
+	<string>https://github.com/punitarani/fli</string>
+</dict>
+</plist>
